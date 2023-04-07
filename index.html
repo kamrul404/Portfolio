@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="If-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7298029789.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Image/Pic2.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header"><b>Home</b></a></li>
+            <li><a href="#about"><b>About Me</b></a></li>
+            <li><a href="#services"><b>Portfolio</b></a></li>
+            <li><a href="#contact"><b>Contact</b></a></li>
+            <i class="fa-solid fa-xmark" style="color: #0d0d0d;" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" style="color: #fff;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Freelancer and Owner of a Jersey shop</p>
+          <h1>Hi , I'm <span>Kamrul</span> <br> from Bangladesh </h1>
+        </div>
+      </div>
+    </div>
+ <!-------about------->
+
+
+ <div id="about">
+ <div class="container">
+  <div class="row">
+    <div class="about-col-1">
+      <img src="Image/Pic3.png">
+    </div>
+    <div class="about-col-2">
+      <h1 class="sub-title">About Me</h1>
+      <p>"I'm Md. Kamrul, a bright and driven person who loves to learn and start businesses. I am committed to achieving academic achievement and expanding my knowledge in all subject areas as a student. I survive as a businessperson on discovering and seizing new possibilities, utilizing my abilities and ingenuity to establish successful e-commerce, technology, and consulting businesses. I enjoy combining my skills in content production, digital marketing, and graphic design as a freelancer to support customers in realizing their objectives. I take great pride in my dependability, professionalism, and dedication to excellence in all that I do. I'm always keen to take on new projects and have a positive impact on the world thanks to my varied skill set and entrepreneurial attitude."</p>
+      
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+        <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+        <p class="tab-links" onclick="opentab('education')"> Education </p>
+      </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>Digital Marketing</span><br>Email Marketing</li>
+          </ul>
+
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Freelancing 
+            </span><br>Email Marketing</li>
+            <li><span>Business</span><br>Online Jersey Shop<a href="https://www.facebook.com/jerseyslandbd">Facebook page</a>
+              Strated on jan 2022 to Current.
+              </li>
+            </ul>
+       </div>
+       <div class="tab-contents" id="education">
+        <ul>
+          <li><span>Computer Science and Engineering</span><br>
+            <table border="2" cellpadding="4" margin="2px">
+              <tr>
+            <th>Institute</th>
+            <th>CGPA</th>
+            <th>Passing Year</th>
+            </tr>
+            <tr>
+              <td>Daffodil International University</td>
+              <td>3.10</td>
+              <td>4<sup>th</sup>Year student</td>
+            </tr>
+
+          </table></li>
+          <li><span>Secondary School Certificate(SSC) </span><br>
+          <table border="2" cellpadding="4" margin="2px">
+            <tr>
+              <th>Institute</th>
+              <th>GPA</th>
+              <th>Passing Year</th>
+              <th>Board</th>
+
+              </tr>
+              <tr>
+                <td>Baraia High School.</td>
+                <td>4.77</td>
+                <td>2017</td>
+                <td>Barishal</td>
+
+              </tr>
+          </table></li>
+          <li><span>Higher Secondary School Certificate(HSC) </span><br>
+            <table border="2" cellpadding="4" margin="2px">
+              <tr>
+                <th>Institute</th>
+                <th>GPA</th>
+                <th>Passing Year</th>
+                <th>Board</th>
+  
+                </tr>
+                <tr>
+                  <td>Baraia University College</td>
+                  <td>4.33</td>
+                  <td>2019</td>
+                  <td>Barishal</td>
+  
+                </tr>
+            </table></li>
+        </ul>
+
+      </div>
+
+
+
+      </div>  
+    </div>
+  </div>
+ </div>
+<!--- -------------Services------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+   <div class="services-list">
+
+    <div>
+      <i class="fa-sharp fa-regular fa-envelope fa-bounce"></i>
+      <h2>Email Marketing</h2>
+      <p>I'm working with a team where we worked on email
+        <ul>
+          <li>Email Password Change</li>
+          <li>Email Verification</li>
+          <li>Training to Fresher</li>
+        </ul>
+      </p>
+      
+    </div>
+    
+    
+    <div>
+      <i class="fa-brands fa-uikit fa-flip"></i>
+      <h2>UI/UX Design </h2>
+      <p>I am a little paper prototype designer and also UI and UX. Adobe and Figma this the most populer platform of UI and UX design. I am using with Adobe XD</p>
+      <a href="#">learn more</a>
+    </div>
+    <div>
+      <i class="fa-brands fa-sellsy fa-beat-fade"></i>
+      <h2>Online Selling</h2>
+      <p>In addition of my studies and freelancing . I am selling T-Shirt,Shorts,Customizable Jersey.<a href="https://www.facebook.com/jerseyslandbd">learn more</a></p>
+    </div>
+    
+     </div>
+  </div>
+</div>
+<!------Portfolio------>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work </h1> 
+    <div class="work-list">
+      <div class="work">
+        <img src="Image/IMG_4873 (1).jpg">
+        <div class="layer">
+          <h3>Presenation</h3>
+          <p>A good presenation skilled is a better things of proffesional life.</p>
+          <a href="#"><i class="fa-solid fa-presentation-screen"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Image/Business.jpg">
+        <div class="layer">
+          <h3>Online Selling</h3>
+          <p>A good presenation skilled is a better things of proffesional life.</p>
+          <a href="#"><i class="fa-solid fa-presentation-screen"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Image/IMG_4346.jpg">
+        <div class="layer">
+          <h3>Offline Selling</h3>
+          <p>A good presenation skilled is a better things of proffesional life.</p>
+          <a href="#"><i class="fa-solid fa-presentation-screen"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://drive.google.com/drive/my-drive" class="btn">See more</a>
+  </div>
+</div>
+
+<!-------Contact Me------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="contact-in">
+        <p><i class="fa-sharp fa-regular fa-envelope"></i> kamrul15-3069@diu.edu.bd</p>
+        <p><i class="fa-solid fa-phone"></i> +8801786-661586</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/kamrulgog10"><i class="fa-brands fa-facebook" style="color: #0276e3;"></i></a>
+          <a href="https://github.com/kamrul404"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UC0MbOyMntR0ic3zvySDD1XQ"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <a href="CV/CV (3).pdf" download class="btn bt2">Download CV</a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email Address" required>
+      
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Send</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+
+    </div>
+  </div>
+<div class="copyright">
+  <p>Copyright © Md.Kamrul <br>Made by Md.Kamrul email: kamrul15-3069@diu.edu.bd </p>
+</div>
+</div>
+
+ <script>
+ var tablinks = document.getElementsByClassName("tab-links");
+ var tabcontents = document.getElementsByClassName("tab-contents");
+
+ function opentab(tabname){
+  for(tablink of tablinks){
+     tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+     tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+   
+ }
+
+ </script>
+ <script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right ="0";
+  }
+  function closemenu(){
+    sidemenu.style.right ="-200px";
+  }
+  
+ </script>
+ 
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz7OgjxpcOEKzP1YJ-9PZDhhA7DBc7UoEOuatn8vuyKDe456c_4yPgDR3WSdPpFlxo_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+
+</html>
